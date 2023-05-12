@@ -8,6 +8,11 @@ function App() {
   return (
     <>
         <TextInput label="Character Name"/>
+        <TextInput label="Class & Level"/>
+        <TextInput label="Background"/>
+        <TextInput label="Player Name"/>
+        <TextInput label="Alignment"/>
+        <TextInput label="Experience Points"/>
     </>
   )
 }
