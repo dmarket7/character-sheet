@@ -17,6 +17,7 @@ function App() {
                             p="8px"
                             variant="filled"
                             inputWrapperOrder={['input', 'label']}
+                            ta="left"
                         />
                     </Flex>
                 </Grid.Col>
@@ -27,6 +28,7 @@ function App() {
                                 label="Class & Level"
                                 variant="filled"
                                 inputWrapperOrder={['input', 'label']}
+                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
@@ -34,6 +36,7 @@ function App() {
                                 label="Background"
                                 variant="filled"
                                 inputWrapperOrder={['input', 'label']}
+                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
@@ -41,6 +44,7 @@ function App() {
                                 label="Player Name"
                                 variant="filled"
                                 inputWrapperOrder={['input', 'label']}
+                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
@@ -48,6 +52,7 @@ function App() {
                                 label="Race"
                                 variant="filled"
                                 inputWrapperOrder={['input', 'label']}
+                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
@@ -55,6 +60,7 @@ function App() {
                                 label="Alignment"
                                 variant="filled"
                                 inputWrapperOrder={['input', 'label']}
+                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
@@ -62,6 +68,7 @@ function App() {
                                 label="Experience Points"
                                 variant="filled"
                                 inputWrapperOrder={['input', 'label']}
+                                ta="left"
                             />
                         </Grid.Col>
                     </Grid>
