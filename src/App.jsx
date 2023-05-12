@@ -16,6 +16,7 @@ function App() {
                             w="100%"
                             p="8px"
                             variant="filled"
+                            inputWrapperOrder={['input', 'label']}
                         />
                     </Flex>
                 </Grid.Col>
@@ -25,36 +26,42 @@ function App() {
                             <TextInput
                                 label="Class & Level"
                                 variant="filled"
+                                inputWrapperOrder={['input', 'label']}
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
                             <TextInput
                                 label="Background"
                                 variant="filled"
+                                inputWrapperOrder={['input', 'label']}
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
                             <TextInput
                                 label="Player Name"
                                 variant="filled"
+                                inputWrapperOrder={['input', 'label']}
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
                             <TextInput
                                 label="Race"
                                 variant="filled"
+                                inputWrapperOrder={['input', 'label']}
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
                             <TextInput
                                 label="Alignment"
                                 variant="filled"
+                                inputWrapperOrder={['input', 'label']}
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
                             <TextInput
                                 label="Experience Points"
                                 variant="filled"
+                                inputWrapperOrder={['input', 'label']}
                             />
                         </Grid.Col>
                     </Grid>
