@@ -10,6 +10,7 @@ describe('App', () => {
         expect(screen.getByLabelText('Class & Level')).toBeInTheDocument();
         expect(screen.getByLabelText('Background')).toBeInTheDocument();
         expect(screen.getByLabelText('Player Name')).toBeInTheDocument();
+        expect(screen.getByLabelText('Race')).toBeInTheDocument();
         expect(screen.getByLabelText('Alignment')).toBeInTheDocument();
         expect(screen.getByLabelText('Experience Points')).toBeInTheDocument();
         // screen.debug();
