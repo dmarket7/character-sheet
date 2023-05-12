@@ -10,7 +10,7 @@ function App() {
             <Grid>
                 <Grid.Col span={4}>
                     <Flex align="center" justify="center" mih="100%">
-                        <TextInput label="Character Name" sx={{ border: '1px solid black' }} w="100%"/>
+                        <TextInput label="Character Name" sx={{ border: '1px solid black' }} w="100%" p="8px"/>
                     </Flex>
                 </Grid.Col>
                 <Grid.Col span={8} sx={{ border: '1px solid black' }}>
