@@ -5,70 +5,60 @@ import './App.css'
 function App() {
     const [count, setCount] = useState(0)
 
+    const StyledTextInput = (props) => {
+        return (
+            <TextInput
+                {...props}
+                variant="filled"
+                inputWrapperOrder={['input', 'label']}
+                ta="left"
+            />
+        );
+    }
+
     return (
         <>
             <Grid>
                 <Grid.Col span={4}>
                     <Flex align="center" justify="center" mih="100%">
-                        <TextInput
+                        <StyledTextInput
                             label="Character Name"
                             sx={{ border: '1px solid black' }}
                             w="100%"
                             p="8px"
-                            variant="filled"
-                            inputWrapperOrder={['input', 'label']}
-                            ta="left"
                         />
                     </Flex>
                 </Grid.Col>
                 <Grid.Col span={8} sx={{ border: '1px solid black' }}>
                     <Grid>
                         <Grid.Col span={4}>
-                            <TextInput
+                            <StyledTextInput
                                 label="Class & Level"
-                                variant="filled"
-                                inputWrapperOrder={['input', 'label']}
-                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
-                            <TextInput
+                            <StyledTextInput
                                 label="Background"
-                                variant="filled"
-                                inputWrapperOrder={['input', 'label']}
-                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
-                            <TextInput
+                            <StyledTextInput
                                 label="Player Name"
-                                variant="filled"
-                                inputWrapperOrder={['input', 'label']}
-                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
-                            <TextInput
+                            <StyledTextInput
                                 label="Race"
-                                variant="filled"
-                                inputWrapperOrder={['input', 'label']}
-                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
-                            <TextInput
+                            <StyledTextInput
                                 label="Alignment"
-                                variant="filled"
-                                inputWrapperOrder={['input', 'label']}
-                                ta="left"
                             />
                         </Grid.Col>
                         <Grid.Col span={4}>
-                            <TextInput
+                            <StyledTextInput
                                 label="Experience Points"
-                                variant="filled"
-                                inputWrapperOrder={['input', 'label']}
-                                ta="left"
                             />
                         </Grid.Col>
                     </Grid>
